@@ -19,7 +19,7 @@ function startTyped(strings) {
 const typedScript = document.createElement("script");
 typedScript.src = "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js";
 typedScript.onload = function() {
-    startTyped(["Student", "System Developer", "Web Developer", "Machine Learning Developer"]);
+    startTyped(["Student", "System Developer", "Full-Stack Developer"]);
 };
 document.head.appendChild(typedScript);
 document.head.appendChild(typedScript);
@@ -54,8 +54,6 @@ elementsToAnimate.forEach(element => {
 });
 
 /* os códigos anteriores foram feitos com ajuda da internet */
-
-var strings = ["Student", "System Developer", "Web Developer", "Machine Learning Developer"];
 
 function pageTheme() {
     const icon = document.getElementById('theme-icon');
@@ -124,12 +122,12 @@ function pageLanguage() {
             });
 
             // HOME
-            startTyped(["Estudante", "Desenvolvedor de Sistemas", "Desenvolvedor Web", "Desenvolvedor de Aprendizado de Máquina"]);
+            startTyped(["Estudante", "Desenvolvedor de Sistemas", "Desenvolvedor Full-Stack"]);
             document.querySelector('#greeting').innerHTML = 'Olá,<br>Sou <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'Sobre Mim';
-            document.querySelector('#about .about-text p').innerHTML = 'Atualmente estou no ensino médio, estudando em uma escola com técnico integrado de Desenvolvimento de Sistemas. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. Eu adoro passar o tempo me desafiando a programar novos projetos, e sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL. Eu também estou, atualmente, apredendo sobre Tensorflow e PyTorch.';
+            document.querySelector('#about .about-text p').innerHTML = 'Eu recentemente me formei como Técnico em Desenvolvimento de Sistemas através do ensino médio com técnico integrado pela Etec, e planejo me matricular em Ciência da Computação na Unicamp. Quero me focar em aprender sobre desenvolvimento Back-End: principalmente Inteligência Artificial e Aprendizado de Máquina. <br> Eu adoro passar o tempo me desafiando a programar novos projetos, e sou capaz de me adaptar a novos desafios e projetos. Minhas principais habilidades são: Inglês, Python, HTML, CSS, JavaScript, MySQL. Eu também estou, atualmente, apredendo sobre Tensorflow e PyTorch.';
 
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'Competências';
@@ -209,12 +207,12 @@ function pageLanguage() {
             });
 
             // HOME
-            startTyped(["Student", "System Developer", "Web Developer", "Machine Learning Developer"]);
+            startTyped(["Student", "System Developer", "Full-Stack Developer"]);
             document.querySelector('#greeting').innerHTML = 'Hi,<br>I\'m <span style="color: var(--sec-color)">Gabriel</span>';
 
             // ABOUT
             document.querySelector('#about .title h1').innerHTML = 'About Me';
-            document.querySelector('#about .about-text p').innerHTML = 'I am currently studying System Devlopment at a vocational-technical high-school. I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. I love spending time challenging myself with coding projects, and I\'m capable of adapting to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL. And I\'m currently learning about Tensorflow and PyTorch.';
+            document.querySelector('#about .about-text p').innerHTML = 'I have recently graduated in System Development from a vocational-technical high school (Etec), and I am planning on enrolling in a Computer Science university (Unicamp). I want to focus on learning about Back-End development, mainly Artificial Intelligence and Machine Learning. <br> I love spending time challenging myself with coding projects, and I\'m highly adaptable to new challenges and projects. My main skills are: English, Python, HTML, CSS, JavaScript, MySQL. I am also currently learning about Tensorflow and PyTorch.';
 
             // SKILLS
             document.querySelector('#skills .title h1').innerHTML = 'My Skills';
@@ -244,13 +242,13 @@ function pageLanguage() {
             document.querySelector('#projects #project-card-quiz #date').innerHTML = 'June 2024';
             document.querySelector('#projects #project-card-quiz p').innerHTML = 'Quiz made at ETEC vocational-technical high-school to learn about menus and changing screens in C#.';
 
-            document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Project NOVA';
-            document.querySelector('#projects #project-card-nova #date').innerHTML = 'January 2024';
-            document.querySelector('#projects #project-card-nova p').innerHTML = 'Acronym for "Neural Operations for Versatile Applications", it\'s a Machine Learning project where I plan to build multiple LLMs for different porpouses, including: Gaia - a conversational AI to improve English fluency; Airis - a streamer AI for Twitch. It\'s currently under development and documented through Notion. I will release the documentation soon.';
+            // document.querySelector('#projects #project-card-nova #project-title').innerHTML = 'Project NOVA';
+            // document.querySelector('#projects #project-card-nova #date').innerHTML = 'January 2024';
+            // document.querySelector('#projects #project-card-nova p').innerHTML = 'Acronym for "Neural Operations for Versatile Applications", it\'s a Machine Learning project where I plan to build multiple LLMs for different porpouses, including: Gaia - a conversational AI to improve English fluency; Airis - a streamer AI for Twitch. It\'s currently under development and documented through Notion. I will release the documentation soon.';
 
-            document.querySelector('#projects #project-card-gaia #project-title').innerHTML = 'Gaia AI (NOVA)';
-            document.querySelector('#projects #project-card-gaia #date').innerHTML = 'January 2025';
-            document.querySelector('#projects #project-card-gaia p').innerHTML = 'Part of the NOVA Project. An AI that can talk in English, creating conversations and playing games. It\'s currently under development and documented through Notion. I will release the documentation soon.';
+            // document.querySelector('#projects #project-card-gaia #project-title').innerHTML = 'Gaia AI (NOVA)';
+            // document.querySelector('#projects #project-card-gaia #date').innerHTML = 'January 2025';
+            // document.querySelector('#projects #project-card-gaia p').innerHTML = 'Part of the NOVA Project. An AI that can talk in English, creating conversations and playing games. It\'s currently under development and documented through Notion. I will release the documentation soon.';
 
             // CERTIFICATES
             document.querySelector('#certificates .title h1').innerHTML = 'My Awardings';
